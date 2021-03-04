@@ -14,7 +14,7 @@ public class ClienteEntidadPersona {
         EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
         
-        //Inicia la transaccion
+       
         tx.begin();
         //No se debe especificar el ID de la base de datos
         Persona persona1 = new Persona("Maria", "Gutierrez", "mgutierrez@mail.com", "99591199");
